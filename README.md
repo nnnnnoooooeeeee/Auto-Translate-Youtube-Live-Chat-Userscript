@@ -1,6 +1,6 @@
 <h1>Translate YouTube live chat, banner, and video title (toggleable)</h1>
 
-<img width="1787" height="706" alt="image" src="https://github.com/user-attachments/assets/c0023faa-9dfb-4e1b-ada2-122435f18fbb" />
+<img width="1809" height="823" alt="image" src="https://github.com/user-attachments/assets/79ce75f7-93d8-4008-8dbd-a11ec2ba7137" />
 <br>
 <br>
 <br>
@@ -8,8 +8,8 @@
 <br>
 <br>
 <br>
-<img width="521" height="501" alt="image" src="https://github.com/user-attachments/assets/eb0eeaba-f144-4c91-a37c-b552b564c810" />
+<img width="519" height="765" alt="image" src="https://github.com/user-attachments/assets/e347d8dc-17ca-4fd5-9eaf-ed000e8c4de1" />
 <br>
 <br>
 <br>
-<img width="1311" height="88" alt="image" src="https://github.com/user-attachments/assets/e9617be0-7280-47a7-b550-7a8d5b1bcd1d" />
+<img width="1298" height="85" alt="image" src="https://github.com/user-attachments/assets/a1a7fb6f-4e22-482d-8070-817b7455d78a" />
