@@ -8,6 +8,8 @@
 // @grant        GM_registerMenuCommand
 // ==/UserScript==
 
+/* https://github.com/nnnnnoooooeeeee */
+
 (function () {
     'use strict';
 
