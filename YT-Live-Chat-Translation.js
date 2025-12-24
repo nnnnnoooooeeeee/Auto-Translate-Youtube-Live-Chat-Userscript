@@ -6,6 +6,7 @@
 // @author       Nnnnnoooooeeeee
 // @match        https://www.youtube.com/*
 // @grant        GM_registerMenuCommand
+// @license      GPL-3.0-or-later
 // ==/UserScript==
 
 /* https://github.com/nnnnnoooooeeeee */
