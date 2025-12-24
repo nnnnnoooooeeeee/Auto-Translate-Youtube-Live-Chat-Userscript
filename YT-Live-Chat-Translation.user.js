@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Translate YouTube Live Chat + Title (Auto Lang)
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.0.1
 // @description  Translate YouTube live chat, banner, and video title (toggleable)
 // @icon         https://raw.githubusercontent.com/nnnnnoooooeeeee/Youtube-LIve-Chat-Translation-Userscript/refs/heads/main/yt-icon.png
 // @author       Nnnnnoooooeeeee
@@ -161,7 +161,6 @@
         );
 
         chatObserver.observe(container, { childList: true, subtree: true });
-        console.log('[YT] Chat translator ON');
     }
 
     /* ================= SUPER CHAT ================= */
@@ -229,8 +228,6 @@
             childList: true,
             subtree: true
         });
-
-        console.log('[YT] Paid chat translator ON');
     }
 
     /* ================= BANNER ================= */
@@ -260,7 +257,6 @@
         );
 
         bannerObserver.observe(banner, { childList: true, subtree: true });
-        console.log('[YT] Banner translator ON');
     }
 
     /* ================= TITLE ================= */
@@ -316,8 +312,6 @@
             characterData: true,
             paid: true
         });
-
-        console.log('[YT] Title translator ON');
     }
 
     /* ================= ROOT ================= */
