@@ -3,6 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Translate YouTube live chat, banner, and video title (toggleable)
+// @icon         https://raw.githubusercontent.com/nnnnnoooooeeeee/Youtube-LIve-Chat-Translation-Userscript/refs/heads/main/yt-icon.png
 // @author       Nnnnnoooooeeeee
 // @match        https://www.youtube.com/*
 // @grant        GM_registerMenuCommand
