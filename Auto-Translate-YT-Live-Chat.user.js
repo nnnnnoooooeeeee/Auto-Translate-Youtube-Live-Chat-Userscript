@@ -8,8 +8,8 @@
 // @match        https://www.youtube.com/*
 // @grant        GM_registerMenuCommand
 // @license      GPL-3.0-or-later
-// @downloadURL  https://github.com/nnnnnoooooeeeee/Youtube-LIve-Chat-Translation-Userscript/raw/refs/heads/main/YT-Live-Chat-Translation.user.js
-// @updateURL    https://github.com/nnnnnoooooeeeee/Youtube-LIve-Chat-Translation-Userscript/raw/refs/heads/main/YT-Live-Chat-Translation.user.js
+// @downloadURL  https://github.com/nnnnnoooooeeeee/Auto-Translate-Youtube-Live-Chat-Userscript/raw/refs/heads/main/Auto-Translate-YT-Live-Chat.user.js
+// @updateURL    https://github.com/nnnnnoooooeeeee/Auto-Translate-Youtube-Live-Chat-Userscript/raw/refs/heads/main/Auto-Translate-YT-Live-Chat.user.js
 // ==/UserScript==
 
 /* https://github.com/nnnnnoooooeeeee */
