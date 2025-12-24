@@ -1,4 +1,4 @@
-<h1>Auto translate YouTube live chat, banner, and video title (toggleable)</h1>
+<h1>Auto translate YouTube live chat, banner, and video title</h1>
 
 <img width="1809" height="823" alt="image" src="https://github.com/user-attachments/assets/79ce75f7-93d8-4008-8dbd-a11ec2ba7137" />
 <br>
