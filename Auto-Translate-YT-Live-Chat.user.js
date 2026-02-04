@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto Translate Youtube Live Chat
 // @namespace    http://tampermonkey.net/
-// @version      1.1.1
+// @version      1.1.2
 // @description  Translate YouTube live chat, banner, and video title
 // @icon         https://raw.githubusercontent.com/nnnnnoooooeeeee/Auto-Translate-Youtube-Live-Chat-Userscript/refs/heads/main/yt-icon.png
 // @author       Nnnnnoooooeeeee
@@ -33,23 +33,32 @@ const translate=async t=>{
     return (await r.json())[0].map(x=>x[0]).join('');
 };
 
-const addTranslated=async(el,txt,cls,style,mode='append')=>{
-    if(!txt||el.dataset.tdone===txt) return;
-    el.dataset.tdone=txt;
+const addTranslated = async (el, txt, cls, style, mode='append') => {
+    if(!txt) return;
 
-    const tr=await translate(txt);
-    if(!tr||tr===txt) return;
+    const parent = el.parentElement;
+    const old = parent.querySelector('.' + cls);
 
-    el.parentElement.querySelector('.'+cls)?.remove();
+    if (el.dataset.tdone !== txt && old) {
+        old.remove();
+    }
 
-    const d=document.createElement('div');
-    d.className=cls;
-    d.textContent=tr;
-    Object.assign(d.style,style);
+    if (el.dataset.tdone === txt) return;
+    el.dataset.tdone = txt;
 
-    if(mode==='after') el.insertAdjacentElement('afterend',d);
-    else el.parentElement.appendChild(d);
+    const tr = await translate(txt);
+
+    if(!tr || tr === txt) return;
+
+    const d = document.createElement('div');
+    d.className = cls;
+    d.textContent = tr;
+    Object.assign(d.style, style);
+
+    if(mode === 'after') el.insertAdjacentElement('afterend', d);
+    else parent.appendChild(d);
 };
+
 
 function processChat(n){
     const m=n.querySelector?.('span#message.yt-live-chat-text-message-renderer');
