@@ -1,5 +1,9 @@
 <h1>Auto translate YouTube live chat, banner, and video title</h1>
 
+<img width="1863" height="829" alt="image" src="https://github.com/user-attachments/assets/401353bc-54c7-43bd-93da-ac4989720853" />
+<br>
+<br>
+<br>
 <img width="1809" height="823" alt="image" src="https://github.com/user-attachments/assets/79ce75f7-93d8-4008-8dbd-a11ec2ba7137" />
 <br>
 <br>
